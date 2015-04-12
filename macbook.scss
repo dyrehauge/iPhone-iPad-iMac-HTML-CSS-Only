@@ -1,0 +1,97 @@
+.macbook-wrap{
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 165px;
+	float: left;
+	overflow: hidden;
+	margin-right: 5%;
+
+	.glare{
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: -1px;
+	overflow: hidden;
+	top: -7px;
+	border-top: 14em solid rgba(255, 255, 255, 0.05);
+	border-left: 12em solid transparent;
+	}
+
+	.macbook-structure{
+		width: 79%;
+		height: 85%;
+		margin: 0 auto;
+		background: #161516;
+		position: relative;
+		overflow: hidden;
+		border-radius: 10px;
+		border: 1px solid #dadada;
+
+		.camera{
+		width:4px;
+		border-radius:4px;
+		background: #1A1A1A;
+		height:4px;
+		margin:0 auto;
+		display: block;
+		position: relative;
+		margin-top: 10px;
+		}
+
+		.screen{
+			width: 95%;
+			height: 86%;
+			background: #252525;
+			margin: 0 auto;
+			margin-top: 7px;
+			border-radius: 2px;
+			overflow: hidden;
+
+			h1{
+				color:#fff;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 100;
+				font-size: 13px;
+				padding:10px;
+			}
+
+			p{
+				color:#fff;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 100;
+				font-size: 10px;
+				padding:10px;
+			}
+		}
+	}
+
+	.keyboard, .box{
+		margin: 0 auto;
+		width: 95%;
+		height: 10px;
+	}
+	.keyboard{
+		background: #D1D2D7;
+		position: relative;
+		height: 9px;
+		margin-top: -5px;
+		.openarea{
+			height: 5px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			width: 100px;
+			background: #848484;
+			margin:0 auto;
+		}
+			
+	}
+	.box{
+		background: #AEAEAE;
+		height: 5px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+
+}

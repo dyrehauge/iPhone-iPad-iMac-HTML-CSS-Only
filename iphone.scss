@@ -1,0 +1,95 @@
+.iphone-wrap{
+	width: 80px;
+	height: 160px;
+	margin: 0 auto;
+	margin-top: 290px;
+	float: left;
+	position: relative;
+	margin-right: 5%;
+
+
+	.glare{
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: -1px;
+	top: -7px;
+	z-index: 9;
+	border-top: 8em solid rgba(255, 255, 255, 0.05);
+	border-left: 4em solid transparent;
+	}
+
+	.iphone-structure{
+		width: 95%;
+		height: 80%;
+		margin: 0 auto;
+		padding-top: 13%;
+		overflow: hidden;
+		background: #fff;
+		position: relative;
+		border-radius: 10px;
+		border: 2px solid #dadada;
+
+		.centerit{
+			margin:0 auto;
+			width: 20%;
+			position: relative;
+			margin-top: -6px;
+
+			.dot{
+				width: 20%;
+				border-radius: 5%;
+				height: 2px;
+				background: #000;
+				margin:0 auto;
+				margin-top: 0px;
+				display: inline-block;
+			}
+
+
+			.speaker{
+				display: inline-block;
+				width: 52%;
+				height: 2px;
+				background: #000;
+				border-radius: 5px;
+				margin:0 auto;
+			}
+
+		}
+
+		.camera{
+		z-index: 1;
+		width: 4px;
+		border-radius: 4px;
+		background: #000;
+		height: 4px;
+		margin: 0 auto;
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 5%;
+		}
+
+		.screen{
+			width: 85%;
+			height: 75%;
+			background: #252525;
+			margin: 0 auto;
+			margin-top: 3px;
+			border-radius: 2%;
+			overflow: hidden;
+		}
+
+		.home{
+			width: 6%;
+			height: 4%;
+			border-radius: 35px;
+			position: relative;
+			background: #fff;
+			border:2px solid #999;
+			margin:0 auto;
+			margin-top: 7%;
+		}
+	}
+}

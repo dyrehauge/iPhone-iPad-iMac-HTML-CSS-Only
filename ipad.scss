@@ -1,0 +1,79 @@
+.ipad-wrap{
+	width: 155px;
+	height: 225px;
+	margin: 0 auto;
+	margin-top: 215px;
+	float: left;
+	overflow: hidden;
+	margin-right: 5%;
+
+	.glare{
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: -1px;
+	overflow: hidden;
+	top: -7px;
+	border-top: 12em solid rgba(255, 255, 255, 0.05);
+	border-left: 7em solid transparent;
+	}
+
+	.ipad-structure{
+		width: 95%;
+		height: 95%;
+		margin: 0 auto;
+		background: #fff;
+		position: relative;
+		overflow: hidden;
+		border-radius: 9px;
+		border: 2px solid #dadada;
+
+		.camera{
+		width:5px;
+		border-radius:5px;
+		background: #000;
+		height:5px;
+		margin:0 auto;
+		display: block;
+		position: relative;
+		margin-top: 10px;
+		}
+
+		.screen{
+			width: 90%;
+			height: 79%;
+			background: #252525;
+			margin: 0 auto;
+			margin-top: 5px;
+			border-radius: 2px;
+			overflow: hidden;
+
+			h1{
+				color:#fff;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 100;
+				font-size: 13px;
+				padding:10px;
+			}
+
+			p{
+				color:#fff;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 100;
+				font-size: 10px;
+				padding:10px;
+			}
+		}
+
+		.home{
+			width: 4%;
+			height: 3%;
+			border-radius: 35px;
+			position: relative;
+			background: #fff;
+			border:3px solid #999;
+			margin:0 auto;
+			margin-top: 4%;
+		}
+	}
+}
