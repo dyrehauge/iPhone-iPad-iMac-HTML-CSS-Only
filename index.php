@@ -41,7 +41,7 @@
 			<div class="glare"></div>
 			<div class="camera"></div>
 			<div class="screen">
-				<!-- content goes here  -->
+				<p>hi</p>
 			</div>
 		</div>
 			<div class="keyboard"><div class="openarea"></div></div>
